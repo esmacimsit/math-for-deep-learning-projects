@@ -1,0 +1,57 @@
+1. Sample Space & Events
+
+ Zar atışı için tüm olası sonuçları (sample space) oluştur.
+
+ Tek zar için 1–6 arası tüm değerleri listele.
+
+ İki zar için (i, j) tuple’ları ile tüm olası kombinasyonları oluştur.
+
+ Belirli bir olay tanımla (ör: toplam 7 gelmesi) ve bu olayın olasılığını hesapla.
+
+2. Random Variables
+
+ NumPy ile 10000 adet uniform(0,1) rastgele sayı üret.
+
+ Sayıları [0, 0.25), [0.25, 0.5), [0.5, 0.75), [0.75, 1] aralıklarına ayır.
+
+ Her aralık için olasılıklarını hesapla ve yazdır.
+
+3. Rules of Probability
+
+ İki zar atışı simülasyonu yap.
+
+ Olay A: “İlk zar çift”
+
+ Olay B: “Toplam = 8”
+
+ P(A), P(B) ve P(A and B) hesapla.
+
+4. Joint & Marginal Probability
+
+ Pandas DataFrame ile 2x2 kontenjans tablosu oluştur (ör: cinsiyet vs renk körlüğü).
+
+ Joint probability tablosunu elde et (her hücreyi toplam gözleme böl).
+
+ Marginal probability’leri satır ve sütun toplamlarından hesapla.
+
+5. Chain Rule
+
+ 3 olay belirle (ör: yağmur olma, dışarı çıkma, şemsiye taşıma).
+
+ Her olayın olasılığını ve koşullu olasılıklarını tanımla.
+
+ Chain rule ile P(A and B and C) hesapla.
+
+6. Conditional Probability
+
+ Torbada kırmızı ve mavi toplar var (ör: 5 kırmızı, 3 mavi).
+
+ Top çekildikten sonra yerine koyma ve koymama senaryoları oluştur.
+
+ P(A|B) (ör: “İlk top kırmızı geldiğinde, ikinci top mavi gelme olasılığı”) hesapla.
+
+7. Total Probability
+
+ 3 şehir tanımla, her şehirde mavi göz oranı ver.
+
+ Bir kişinin mavi gözlü olma olasılığını total probability ile hesapla.
